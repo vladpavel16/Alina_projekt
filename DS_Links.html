@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+    <!-- #region -->
+    <head>
+        <div class="titlu">
+            <h1>BA UX RD DS TPR 
+                <span>~Useful Links~</span>
+            </h1>
+        </div>
+               
+        <h2>A path to things you don't know where to look for when you need them. :D</h2>
+    </head>
+    <!-- #endregion -->
+
+    <!-- Body format-->
+        <body style="background-color:rgb(255, 160, 15);">
+
+        </body>
+    <!--Body format-->
+
+    <!-- #region -->
+    <style>
+
+/* ~~~~~~titlu ~~~~~ */
+       
+       
+        h1 {
+            position: relative;
+            padding: 0;
+            margin: 0;
+            font-family: "Raleway", sans-serif;
+            font-weight: 600;
+            font-size: 40px;
+            color: #080808;
+            -webkit-transition: all 0.4s ease 0s;
+            -o-transition: all 0.4s ease 0s;
+            transition: all 0.4s ease 0s;
+            }
+
+        h1 span {
+            display: block;
+            font-size: 0.5em;
+            line-height: 1.3;
+            padding-top: -5px;
+        }
+        
+        .titlu h1 {
+            text-align: center;
+            text-transform: uppercase;
+            padding-bottom: 5px;
+            }
+        
+        .titlu h1:before {
+            width: 28px;
+            height: 5px;
+            display: block;
+            content: "";
+            position: absolute;
+            bottom: 3px;
+            left: 50%;
+            margin-left: -14px;
+            background-color: #b80000;
+            }
+
+        .titlu h1:after {
+            width: 100px;
+            height: 1px;
+            display: block;
+            content: "";
+            position: relative;
+            margin-top: 2px;
+            left: 50%;
+            margin-left: -50px;
+            background-color: #b80000;
+            }
+
+        .titlu h1 span{
+            font-size:26px; font-weight:700;  letter-spacing:1px; text-transform:uppercase; width: auto; text-align:center; margin:auto; white-space:nowrap; 
+            line-height: 3em;
+            padding-left: 0.25em;
+            color: #b80000;
+            opacity: 0.25;
+        }  
+        
+        
+    /* ~~~~ buton drop down meniu si hover efect*/    
+        .dropdown {
+        position: relative;
+        display: inline-block;
+        text-align:center ; }
+
+        .dropdown-content {display: none;
+        position: absolute;
+        background-color: #f7f5f4;
+        width: auto;
+        z-index: 1;}
+
+        .dropdown-content a{color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;}
+
+        .buton{
+            display: inline-block;
+            padding: 1.2em;
+            margin: 0 0.3em 0.3em 0;
+            border-radius: 2em;
+            box-sizing: border-box;
+            font-weight: 300;
+            text-align: center;
+            transition: all 0.2s;
+            animation: buton 3.5s infinite linear;
+            position: relative;
+        }  
+
+        .dropdown-content a:hover {background-color: rgb(255, 160, 15);}
+        .dropdown:hover .dropdown-content {display: block;}
+
+        /* ~~~~~~ animation bouncy ~~~~~~~ */
+        @keyframes buton{
+            0%{top:0em}
+            40%{top:0em}
+            43%{top:-0.9em}
+            46%{top:0em}
+            48%{top:-0.4em}
+            50%{top:0em}
+            100%{top:0em;}
+        }
+
+        
+        /* elementele din lista block drop down meniu*/
+         .stil{
+            list-style: none;
+            margin-left: 0;
+            padding-left: 0;
+            width: fit-content;
+         }
+        
+        </style>
+
+        
+    <div class="dropdown">
+        <button class= "buton"> Administration</button>
+        <div class="dropdown-content">
+            <p><ul class="stil">
+                <li><a title="mySuccess" href="https://links.conti.de/mySuccess" target="_blank">mySuccess</a></li>
+                <li><a title="Book working hours on projects and other activities. You will get paid based on what you enter here montly." href="https://rh.conti.de/rh" target="_blank">Recording Hours</a></li>
+                <li><a title="Open a ticket to facility for solving different problems ( access, furniture, air conditioning etc)" href="https://jira-it.zone2.agileci.conti.de/plugins/servlet/desk/portal/61" target="_blank">Facility Ticket</a></li>
+                <li><a title="Service Desk intranet page. Here you can create a ticket using ESS (Employee Self Service)" href="https://hpsm-web.cw01.contiwan.com/sm/ess.do?essuser=true" target="_blank">IT Service Desk</a></li>
+                <li><a title="Use it to request administrator priviledges on your computer or for installation of different software packages" href="https://ssp.auto.contiwan.com/SSP6" target="_blank">IT Request Management (SSP7)</a></li>
+                <li><a title="Use it to request administrator priviledges on your computer or for installation of different software packages" href="https://cusco.conti.de/cusco3-AU" target="_blank">CUSCO (Manage Services)</a></li>
+                <li><a title="Here you can request read/write access on different drives or folders in conti domain CW01" href="http://rrm001.cw01.contiwan.com/smtweb/smtweb_start.aspx" target="_blank">Share Management Tool</a></li>		
+                <li><a title="Here you can check if an incoming package was processed by the Logistics" href="http://tmlogistics/TSRS.web.PKH.tool/" target="_blank"> Logisitcs</a></li>
+                <li><a title="Use windows credentials to configure desk phone" href="https://tmucmpub.tm.ro.conti.de:8443/ucmuser/" target="_blank">Cisco phone settings</a></li>
+                <li><a href="https://iam.conti.de:8543/idmdash/#/dashboard" target="_blank">Identity Access Management (IAM)</a></li>
+                <li><a href="https://continental.wescale.com/app/#/dashboard" target="_blank">Wescale</a></li>
+                <li><a href="https://platform.application.prd.supplyon.com/extlogon/extLogonServlet?extSysId=Conti-IdP&redirectURL=https://platform.application.prd.supplyon.com/sourcing" target="_blank">SupplyOn</a></li>
+            </ul></p>
+        </div>
+    </div>
+
+    <div class="dropdown">
+        <button class="buton" style="animation-delay: 0.07s;">Other Administration</button> 
+        <div class="dropdown-content">
+            <p><ul class="stil">
+                    <li><a title="Tool for send large files securely. ( internal tool accepted by IT)" href="http://worldwide.espacenet.com/advancedSearch?locale=en_EP" target="_blank">Patent search</a></li>
+                    <li><a href="http://psr.conti.de/01_pages/search.aspx" target="_blank">ePSR</a></li>
+                    <li><a href="https://eprweb.conti.de/apps/ePR/ePRDashboard.nsf" target="_blank">ePR</a></li>
+                    <li><a title="Tool for sending large files securely." href="http://apprepp.conti.de/BlobIT/" target="_blank">Blob-IT</a></li>
+                    <li><a title="web-based application for sending large files securely outside Continental" href="https://moveit-portal-automotive.continental-corporation.com/human.aspx" target="_blank">Move-IT</a></li>
+                    <li><a title="web-based application for electronic signatures. It allows to create, edit and delete sign lists (Slists)" href="https://esign.conti.de" target="_blank">E-Sign</a></li>
+                    <li><a title="Intranet page that shows the benefits offered by the company" href="https://connext.conti.de/wikis/home?lang=en-us#!/wiki/W5e9772a219e0_40a8_809b_9e9d5b0e6547/page/Employees%20Benefits%20&%20Discounts" target="_blank">Employees Benefits</a></li>
+                    <li><a title="Use this tool to initiate or close business trips" href="https://tet.conti.de/TMT/Default.aspx?org=CAR" target="_blank">Travel Management Timisoara</a></li>
+                    <li><a title="Use it to request administrator priviledges on your computer or for installation of different software packages" href="https://rbs.conti.de/rbs/" target="_blank">Resource Booking System (RBS)</a></li>
+                    <li><a title="Here you can find details about Corporate Design Policy: Power point templates, word templates , logos etc." href="http://intranet.conti.de/home/continental-at-a-glance/the-company/corporate-identity/brand-house/welcome-to-the-brand-house/404510" target="_blank">Templates and Logos</a></li>
+                    <li><a href="https://rbt.conti.de/" target="_blank">Resource Balancing Tool (RBT)</a></li>
+                </ul></p>
+        </div>
+    </div>
+
+    <div class="dropdown">
+        <button class="buton" style="animation-delay: 0.14s;">Tools</button> 
+        <div class="dropdown-content">
+            <p>
+                <ul class="stil">
+                    <li><a title="I ID Confluence Homepage" href="http://wiki-id.conti.de/" target="_blank">I ID Confluence</a></li>
+                    <li><a title="Book anything else" href="http://jira-id.zone2.agileci.conti.de/" target="_blank">I ID JIRA</a></li>
+                    <li><a title="Intranet link with lots of links alphabetically ordered" href="http://intranet.conti.de/home/tools-and-services/toolcenter/296708" target="_blank"> ToolCenter Automotive</a></li>
+                    <li><a title="Requirements for process houses of Business Unit ID" href="http://info5.conti.de/app6/PH/PH_ALL.htm" target="_blank">ID Process House</a></li>
+                    <li><a title="Process &amp; Quality Management, Measurement &amp; Experience Repository" href="http://info5.conti.de/app6/passengerCars/SW/PDMK/docu/ind_doku.htm" target="_blank">Product Development Method Kit</a></li>
+                    <li><a title="Electrical Engineering Method Kit (replacement for P730254)" href="http://info5.conti.de/app6/passengerCars/SW/EMK/start.htm" target="_blank">Electrical Engineering Method Kit</a></li>
+                    <li><a title="Display Technology Procedure" href="http://info5.conti.de/app6/PH/05/0500346_ID/Last/CAP0500346.pdf" target="_blank">Display Technology Procedure</a></li>
+                    <li><a title="Display Technology Procedure" href="https://wise-prod.cw01.contiwan.com/PDMLink/app/" target="_blank">WISE Productive System</a></li>
+                    <li><a title="Tool for tracking PTNs and PCNs ( registration required)" href="https://globalpcn-ptn.conti.de/" target="_blank"> Global PCN-PTN</a></li>
+                    <li><a title="Database for National and international standards, Automotive related regulations,Customer and Supplier standards, Company standards" href="https://estd.conti.de" target="_blank">eStandards</a></li>
+                    <li><a title="Drive containing all information for the Microcontroller platforms" href="file://cw01.contiwan.com/root/Loc/bbuv/did35428/50_IC_PUBLIC" target="_blank">Microcontroller HW Platform</a></li>
+                    <li><a title="The link to BBU and TSR EE tech Meeting Minutes" href="file://cw01/Root/Loc/bbuv/did35423/799_MOD_PUBLIC/HW-Meeting" target="_blank">EE tech meeting</a></li>
+                    <li><a title="Reverese engineering on products in series production" href="http://frvs403a/GOBENCHIQ/web/home/q/" target="_blank">Reverse Eng. / Benchmarking</a></li>
+                    <li><a title="Electrical Engineering Public drive. This is the drive where information available in WikEE is stored" href="file://cw01.contiwan.com/root/Loc/bbuv/did35428" target="_blank">CDH drive - DID35428</a></li>
+                    <li><a title="This tool helps you to easily review the layout of PCB designs" href="http://connext.conti.de/wikis/home?lang=de-de#%21/wiki/Engineering%20Processes%20Glossary/page/PCB%20CAM%20Tool" target="_blank">PCB CAM Tool</a></li>
+                    <li><a title="" href="http://www.ieee.org/ieeexplore" target="_blank">IEEE - Digital library</a></li>
+                    <li><a title="Knowledge database of TSR test testing tools" href="https://workspace1.conti.de/content/00007437/Lists/General%20Discussion/AllItems.aspx" target="_blank">uTAS share point</a></li>
+                    <li><a title="WaveDrom is Free and Open Source online digital timing diagram (waveform) rendering engine that uses javascript, HTML5 and SVG to convert WaveJSON input text description into SVG vector graphics" href="https://wavedrom.com/" target="_blank">Wavedrom</a></li>
+                    <li><a title="Database with production quality data: Traceability, MSA &amp; pPCA etc" href="http://tmav762x.tm.ro.conti.de:7779/amis/wcam.htmlindex?papp=wpdbinfo" target="_blank">@mis</a></li>   
+                </ul>
+            </p>
+        </div>
+    </div>
+
+    <div class="dropdown">
+        <button class="buton" style="animation-delay: 0.21s;">Folders and Files</button> 
+        <div class="dropdown-content">
+            <p>
+                <ul class="stil">
+                    <li><a title="Info about HW colleagues: Phone No, Computer name, User name, birthday etc" href="../Group/01_Phones.xlsx" target="_blank">Phones</a></li>
+                    <li><a title="Enter here the equipments or components that are necessary and have to be purchased." href="\\cw01.contiwan.com\root\Loc\tma1\did94387\20_Admin\20_Equipments\02_Equipments_Order" target="_blank">Wishlist</a></li>
+                    <li><a title="Check here how to escalate an administrative or project related problem" href="../Escalation/" target="_blank"> Escalation</a></li>
+                    <li><a title="Link to pictures of actual and former I ID employees" href="\\tmav653x.cw01.contiwan.com\did94111\IIP_Employees\employees_pictures" target="_blank"> Employees pictures</a></li>
+                    <li><a title="Various Templates" href="file://cw01.contiwan.com/root/Loc/tma1/did94111/IIP__Info/Templates" target="_blank">Templates</a></li>
+                    <li><a title="Local marketplace" href="https://continental.sharepoint.com/teams/team_10001710/For_All/Forms/AllItems.aspx"_blank">Y Drive</a></li>  
+                </ul>
+            </p>
+        </div>
+    </div>
+
+    <div class="dropdown">
+        <button class="buton" style="animation-delay: 0.28s;">Plannig</button> 
+        <div class="dropdown-content">
+            <p>
+                <ul class="stil">
+                    <li><a title="Unified planning tool for Layout, SAP, EMC, Clima Chamber, CDH HS and other teams. All requests must be made using this interface." href="file://tmav653x.cw01.contiwan.com/did94156/000_Admin/Links/Task%20Planner.html" target="_blank">Unified Task Planner</a></li>
+			        <li><a title="Book optical measurements" href="http://bhsmjira/secure/Dashboard.jspa" target="_blank">JIRA for Optical Measurements</a></li>
+			        <li><a title="Check status of plannings and reservations of the TSR EMC Laboratory" href="\\tmav653x\did94340\01_EMC_Planning" target="_blank">EMC laboratory</a></li>
+                </ul>
+            </p>
+        </div>
+    </div>
+    <!-- #endregion -->
+
+    <!-- #region -->
+    <!-- Bootstrap try
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown button
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </div>
+      -->
+    <!-- #endregion -->
+
+
+    <!-- #region -->
+    <footer style="position: fixed; margin:auto; text-align: center; bottom: 0; width: 100%; height: 60px;">
+        &copy;Designed for DS TPR
+        <br> 
+        Created by Vlad Pavel for maintenance of RD DS TPR most useful links.
+        <br>
+        <strong>Submit your suggestions at vlad-ionut.pavel@continental-corporation.com
+        </strong><br> 
+    </footer>
+    <!-- #endregion -->
+</html>
